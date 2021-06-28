@@ -1,0 +1,46 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.heading {
+  color: #a35200;
+  font-family: roboto;
+  font-size: 25px;
+}
+.para {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.game-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+}
+.toss-image {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.btn {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  outline: none;
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
